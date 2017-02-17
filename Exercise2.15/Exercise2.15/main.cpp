@@ -8,8 +8,10 @@
 	 //(Arithmetic) Write a program that asks the user to enter two numbers,
 	 // obtains the two numbers from and prints the sum, product, difference, and quotient of the two numbers.
 
-/*This program will ask the user to inmut two values and then calculate the sum, product,
- difference, and quotient of the given values from the user and  return the values to the screen. */
+/*
+ This program will ask the user to inmut two values and then calculate the sum, product,
+ difference, and quotient of the given values from the user and  return the values to the screen.
+ */
 
 	 //Allow the program to perform input and outout
 #include <iostream>
