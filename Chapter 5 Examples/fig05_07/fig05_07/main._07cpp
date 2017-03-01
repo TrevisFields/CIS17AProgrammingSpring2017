@@ -1,0 +1,20 @@
+  //Fig. 5.7: fig05_07.cpp
+  //do...while repetition statement.
+#include <iostream>
+using namespace std;
+
+int main()
+{
+  //initialize counter
+  int counter = 1;
+  
+  do
+  {
+	 //display counter
+	 cout << counter << " ";
+	 //increment counter
+	 ++counter;
+  } while (counter <= 10);//end do...while
+  //output newline
+  cout << endl;
+}//end main
