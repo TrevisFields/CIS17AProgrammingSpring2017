@@ -7,10 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		6E7DD8171E6785740058D5B5 /* Course.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6E7DD8161E6785740058D5B5 /* Course.cpp */; };
-		6E7DD8191E6785A20058D5B5 /* Weather.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6E7DD8181E6785A20058D5B5 /* Weather.cpp */; };
-		6E7DD81B1E6785F90058D5B5 /* Vehicle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6E7DD81A1E6785F90058D5B5 /* Vehicle.cpp */; };
-		6E7DD81D1E67860B0058D5B5 /* Hour.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6E7DD81C1E67860B0058D5B5 /* Hour.cpp */; };
+		6E7DD8FF1E68F8780058D5B5 /* Rectangle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6E7DD8FE1E68F8780058D5B5 /* Rectangle.cpp */; };
+		6E7DD9031E6902230058D5B5 /* Triangle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6E7DD9021E6902230058D5B5 /* Triangle.cpp */; };
+		6E7DD9061E69047F0058D5B5 /* Circle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6E7DD9051E69047F0058D5B5 /* Circle.cpp */; };
+		6E7DD9091E6907E50058D5B5 /* Cylinder.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6E7DD9081E6907E50058D5B5 /* Cylinder.cpp */; };
 		6EFE575A1E65812500D46D8B /* ProjectMain.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6EFE57591E65812500D46D8B /* ProjectMain.cpp */; };
 /* End PBXBuildFile section */
 
@@ -27,14 +27,14 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		6E7DD8161E6785740058D5B5 /* Course.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Course.cpp; sourceTree = "<group>"; };
-		6E7DD8181E6785A20058D5B5 /* Weather.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Weather.cpp; sourceTree = "<group>"; };
-		6E7DD81A1E6785F90058D5B5 /* Vehicle.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Vehicle.cpp; sourceTree = "<group>"; };
-		6E7DD81C1E67860B0058D5B5 /* Hour.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Hour.cpp; sourceTree = "<group>"; };
-		6E7DD81E1E6789690058D5B5 /* Hour.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Hour.h; sourceTree = "<group>"; };
-		6E7DD81F1E67897A0058D5B5 /* Weather.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Weather.h; sourceTree = "<group>"; };
-		6E7DD8201E6789890058D5B5 /* Course.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Course.h; sourceTree = "<group>"; };
-		6E7DD8211E6789A00058D5B5 /* Vehicle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Vehicle.h; sourceTree = "<group>"; };
+		6E7DD8FE1E68F8780058D5B5 /* Rectangle.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Rectangle.cpp; sourceTree = "<group>"; };
+		6E7DD9001E68F88A0058D5B5 /* Rectangle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Rectangle.h; sourceTree = "<group>"; };
+		6E7DD9011E69018E0058D5B5 /* Triangle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Triangle.h; sourceTree = "<group>"; };
+		6E7DD9021E6902230058D5B5 /* Triangle.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Triangle.cpp; sourceTree = "<group>"; };
+		6E7DD9041E6904650058D5B5 /* Circle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Circle.h; sourceTree = "<group>"; };
+		6E7DD9051E69047F0058D5B5 /* Circle.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Circle.cpp; sourceTree = "<group>"; };
+		6E7DD9071E6906FB0058D5B5 /* Cylinder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Cylinder.h; sourceTree = "<group>"; };
+		6E7DD9081E6907E50058D5B5 /* Cylinder.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Cylinder.cpp; sourceTree = "<group>"; };
 		6EFE57561E65812500D46D8B /* Project1V1 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Project1V1; sourceTree = BUILT_PRODUCTS_DIR; };
 		6EFE57591E65812500D46D8B /* ProjectMain.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ProjectMain.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -70,14 +70,14 @@
 			isa = PBXGroup;
 			children = (
 				6EFE57591E65812500D46D8B /* ProjectMain.cpp */,
-				6E7DD8161E6785740058D5B5 /* Course.cpp */,
-				6E7DD8201E6789890058D5B5 /* Course.h */,
-				6E7DD8181E6785A20058D5B5 /* Weather.cpp */,
-				6E7DD81F1E67897A0058D5B5 /* Weather.h */,
-				6E7DD81A1E6785F90058D5B5 /* Vehicle.cpp */,
-				6E7DD8211E6789A00058D5B5 /* Vehicle.h */,
-				6E7DD81C1E67860B0058D5B5 /* Hour.cpp */,
-				6E7DD81E1E6789690058D5B5 /* Hour.h */,
+				6E7DD9081E6907E50058D5B5 /* Cylinder.cpp */,
+				6E7DD9071E6906FB0058D5B5 /* Cylinder.h */,
+				6E7DD8FE1E68F8780058D5B5 /* Rectangle.cpp */,
+				6E7DD9001E68F88A0058D5B5 /* Rectangle.h */,
+				6E7DD9011E69018E0058D5B5 /* Triangle.h */,
+				6E7DD9021E6902230058D5B5 /* Triangle.cpp */,
+				6E7DD9041E6904650058D5B5 /* Circle.h */,
+				6E7DD9051E69047F0058D5B5 /* Circle.cpp */,
 			);
 			path = Project1V1;
 			sourceTree = "<group>";
@@ -139,11 +139,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6E7DD81B1E6785F90058D5B5 /* Vehicle.cpp in Sources */,
-				6E7DD8171E6785740058D5B5 /* Course.cpp in Sources */,
-				6E7DD8191E6785A20058D5B5 /* Weather.cpp in Sources */,
 				6EFE575A1E65812500D46D8B /* ProjectMain.cpp in Sources */,
-				6E7DD81D1E67860B0058D5B5 /* Hour.cpp in Sources */,
+				6E7DD9061E69047F0058D5B5 /* Circle.cpp in Sources */,
+				6E7DD9091E6907E50058D5B5 /* Cylinder.cpp in Sources */,
+				6E7DD9031E6902230058D5B5 /* Triangle.cpp in Sources */,
+				6E7DD8FF1E68F8780058D5B5 /* Rectangle.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
