@@ -31,4 +31,7 @@ void Cylinder::setRadius(double r)
 	 }
   }
 }
+  //got help at mvc to create this program
+  //original program idea ecaped me and had to come up with something a lot simplier than the one i had in mind.
+  //goal is to make use of the concepts from this class and si sessions to create the program i had in mind and continue with the goals and out comes of this course.
 
