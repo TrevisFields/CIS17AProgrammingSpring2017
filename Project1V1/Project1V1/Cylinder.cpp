@@ -7,7 +7,7 @@ Cylinder::Cylinder()
 {
   radius = 25.5;
   PI= 3.14;
-  heigth = 15.0;
+  distance = 15.0;
 }
 
 void Cylinder::setRadius(double r)
@@ -23,7 +23,7 @@ void Cylinder::setRadius(double r)
   void Cylinder::setDistance(double d)
   {
 	 if (d >= 0)
-		heigth = d;
+		distane = d;
 	 else
 	 {
 		cout << "Heigth is not a valid value.\n"
