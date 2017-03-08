@@ -8,7 +8,7 @@ int main()
 {
   Rectangle box;
   
-  cout << "the Width of a rectangle is " << box.getWidth() << endl;
+  cout << "the Width of a rectangle " << box.getWidth() << endl;
   cout << "The length of the same rectangle is " << box.getLength() << endl;
   cout << "To get the area of the rectangle we will use (W * L)  to get the area." << endl;
   cout << "The area of the rectangle is " << box.getArea() << endl;
